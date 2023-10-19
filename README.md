@@ -32,4 +32,27 @@ for (let index = 0; index < 4; index++) {
     basic.showIcon(IconNames.Scissors)
     basic.pause(1000)
     basic.clearScreen()
-}
+
+    rosvit nebo přepni F
+
+
+led.toggle(0, 0)
+led.toggle(0, 1)
+led.toggle(0, 2)
+led.toggle(0, 3)
+led.toggle(1, 0)
+led.toggle(2, 0)
+led.toggle(1, 2)
+led.toggle(2, 2)
+led.toggle(0, 4)
+basic.forever(function () {
+    led.plot(0, 0)
+    led.plot(0, 1)
+    led.plot(0, 2)
+    led.plot(0, 3)
+    led.plot(1, 0)
+    led.plot(2, 0)
+    led.plot(1, 2)
+    led.plot(2, 2)
+    led.plot(0, 4)
+})
