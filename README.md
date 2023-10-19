@@ -1,4 +1,3 @@
-# skola
 0 až 10
 
 let gg = 0
@@ -32,8 +31,9 @@ for (let index = 0; index < 4; index++) {
     basic.showIcon(IconNames.Scissors)
     basic.pause(1000)
     basic.clearScreen()
+}
 
-    rosvit nebo přepni F
+rosvit nebo přepni F
 
 
 led.toggle(0, 0)
