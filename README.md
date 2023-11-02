@@ -56,3 +56,19 @@ basic.forever(function () {
     led.plot(2, 2)
     led.plot(0, 4)
 })
+
+
+
+při stisknutí a 1+ a při b -1
+
+input.onButtonPressed(Button.A, function () {
+    gg += 1
+    basic.showNumber(gg)
+})
+input.onButtonPressed(Button.B, function () {
+    gg += -1
+    basic.showNumber(gg)
+})
+let gg = 0
+gg = 0
+basic.showNumber(gg)
